@@ -1,10 +1,8 @@
 
 import NotionComments from '@/components/NotionComments'
-import UmamiAnalytics from '@/components/ui/UmamiAnalytics'
-
 
 export default function Home() {
-  return (<>
+  return (
     <div className="min-h-screen w-screen flex flex-col gap-8 py-8">
       <div className="w-full max-w-5xl mx-auto px-4 space-y-6">
         <h1 className="text-4xl font-bold">NotionComments </h1>
@@ -64,9 +62,5 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <UmamiAnalytics 
-        websiteId="6a873ef2-259b-4e69-a63c-1306d6695bd2"
-      />
-    </>
   )
 }
