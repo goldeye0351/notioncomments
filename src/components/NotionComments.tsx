@@ -119,7 +119,6 @@ export default function NotionComments({ postId, className, userEmail }: Comment
           variant="outline"
           size="sm"
           className="drawborder"
-          data-umami-event='notioncomments点击评论'
         >
           回复
         </Button>
@@ -159,7 +158,6 @@ export default function NotionComments({ postId, className, userEmail }: Comment
                 size="sm"
                 disabled={isSubmitting}
                 className="h-8"
-                data-umami-event='notioncomment发送评论'
               >
                 <SendIcon className="h-4 w-4" />
               </Button>
@@ -172,7 +170,6 @@ export default function NotionComments({ postId, className, userEmail }: Comment
               size="sm"
               onClick={() => setReplyTo(null)}
               className="mt-2"
-              data-umami-event='notioncomments取消评论'
             >
               取消回复
             </Button>
